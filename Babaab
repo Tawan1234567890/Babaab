@@ -1,19 +1,46 @@
-<div class="dropdown-container">
-  <select id="dropdown">
-    <option value="option1">ไทย</option>
-    <option value="option2">English</option>
-    <option value="option3">Spanish</option>
-  </select>
-  <div class="checkbox-container">
-    <label for="checkbox1">Option 1</label>
-    <input type="checkbox" id="checkbox1" name="checkbox" value="option1">
-    <label for="checkbox2">Option 2</label>
-    <input type="checkbox" id="checkbox2" name="checkbox" value="option2">
-    <label for="checkbox3">Option 3</label>
-    <input type="checkbox" id="checkbox3" name="checkbox" value="option3">
-  </div>
-  <div class="slider-container">
-    <input type="range" id="slider" name="slider" min="0" max="100" value="50">
-  </div>
-  <button onclick="alert('Button clicked!')">Click Me</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <h2>About</h2>
+        <p>This is a simple website created as an example.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
